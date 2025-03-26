@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula CSS - 1</title>
+	<link rel="stylesheet" href="STYLE.CSS">
+</head>
+
+<style>
+	.card {
+		width: 500px;
+		height: fit-content;
+		background-color: aliceblue;
+		border-radius: 25px;
+		border: solid 2px blue;
+		margin: 20px;
+	}
+
+	.imagem-perfil {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		margin: 10px 0px 10px 40px;
+	}
+
+	.img {
+
+		width: 100%;
+		height: 100%;
+		margin-top: 20px;
+	}
+
+	.mensagem {
+
+		padding: 5px 40px;
+		font-family: Arial;
+	}
+
+	.cor-padrao {
+		color: blue;
+	}
+
+	.estilo-texto {
+
+		font-style: italic;
+	}
+
+	h1 {
+		font-family: Arial; font-size: 30px;
+	}
+
+	p {
+		font-family: Arial; font-size: 15px;
+	}
+
+</style>
+
+<body>
+
+	<div class="card">
+
+		<div class="imagem-perfil">
+			<img class="img"
+				src="https://cdn-icons-png.flaticon.com/512/706/706830.png" alt="Imagem de Perfil">
+		</div>
+
+		<div class="mensagem">
+			<h1>
+				Meu nome é: <span class="cor-padrao"> Adriana </span>
+			</h1>
+
+			<p>
+				Mensagem: <span class="cor-padrao estilo-texto"> A vida não é um morango! E tá tudo bem!</span>
+			</p>
+		</div>
+	</div>
+
+	<div class="card">
+
+		<div class="imagem-perfil" >
+			<img class="img"
+				src="https://cdn-icons-png.flaticon.com/256/3681/3681928.png" alt="">
+		</div>
+
+		<div class="mensagem">
+			<h1>
+				Meu nome é: <span class="cor-padrao">Hugo</span>
+			</h1>
+
+			<p>
+				Mensagem: <span class="cor-padrao estilo-texto">Um dia é da caça, o outro é do caçador.</span>
+			</p>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
